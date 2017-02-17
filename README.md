@@ -417,23 +417,23 @@ Searching isn't as simple as just making an AJAX request, though. We usually let
 <details><summary>Click to see this form setup in sample code.</summary>
 
 
-    ```html
-    <!-- html -->
-    <form ng-submit="projectCtrl.createProject();">
-      <input type="text" class="form-control" placeholder="project name" ng-model="projectCtrl.newProject.name"></input>
-      <input type="text" class="form-control" placeholder="project type" ng-model="projectCtrl.newProject.type"></input>
-      <!-- other inputs here -->
-      <input type="submit">
-    </form>
-    ```
+```html
+<!-- html -->
+<form ng-submit="projectCtrl.createProject();">
+  <input type="text" class="form-control" placeholder="project name" ng-model="projectCtrl.newProject.name"></input>
+  <input type="text" class="form-control" placeholder="project type" ng-model="projectCtrl.newProject.type"></input>
+  <!-- other inputs here -->
+  <input type="submit">
+</form>
+```
 
-    ```js
-    // inside ProjectController
-    vm.createProject = function(){
-      console.log('creating project!');
-      // make the http request with the data you have from two-way binding
-    }
-    ```
+```js
+// inside ProjectController
+vm.createProject = function(){
+  console.log('creating project!');
+  // make the http request with the data you have from two-way binding
+}
+```
 </details>
 
 ### Closing Thoughts
