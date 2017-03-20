@@ -392,16 +392,14 @@ Searching isn't as simple as just making an AJAX request, though. We usually let
   * How would we do this with jQuery?  
   * Have you seen any other event listeners in Angular that you could compare to?
 
-  > <details><summary>click for how to</summary>
       To enable submit, we'll need a submit button inside the form, an `ng-submit` attribute in the form tag, and a function in the controller to handle the submit event.
-      </details>
+
 
 1. In Angular, how can we get the value of a form's input fields?
   * How can we associate part of the view with a value from the controller?
 
-  > <details><summary>click for how to</summary>
   This sounds like a job for `ng-model`!  When a form has multiple inputs, it's common to group those into one larger object in the controller.
-  </details>
+
 
 
 
