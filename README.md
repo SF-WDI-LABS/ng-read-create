@@ -163,8 +163,8 @@ What follows are examples of how we'd use `$http` to access an API that describe
 
 Remember, we use index to mean getting all of a resource! And remember your RESTful routes.
 
-<details>
-  <summary>**Get all projects -- with an `$http` request to `GET /api/projects`.**</summary>
+**Get all projects -- with an `$http` request to `GET /api/projects`.**
+
   ```js
   $http({
     method: 'GET',
@@ -178,7 +178,8 @@ Remember, we use index to mean getting all of a resource! And remember your REST
   ```
 
   ... and a sample response:
-  <details><summary>click to see full response</summary>
+  
+
   ```js
   {
     "data": [
@@ -214,9 +215,7 @@ Remember, we use index to mean getting all of a resource! And remember your REST
     "statusText": "OK"
   }
   ```  
-  </details>
 
-</details>
 
 
 
@@ -224,8 +223,8 @@ Remember, we use index to mean getting all of a resource! And remember your REST
 
 Showing just one instance of a resource often requires an id.  With `$http`, we'll just add that to the `url`.
 
-<details>
-  <summary>**Show a project -- with an example `$http` request to `GET /api/projects/3`.**</summary>
+**Show a project -- with an example `$http` request to `GET /api/projects/3`.**
+
   ```js
   $http({
     method: 'GET',
@@ -238,7 +237,7 @@ Showing just one instance of a resource often requires an id.  With `$http`, we'
   ```
 
   ... and a sample response:
-  <details><summary>click to see full response</summary>
+
   ```js
   {
     "data": {
@@ -265,9 +264,7 @@ Showing just one instance of a resource often requires an id.  With `$http`, we'
     "statusText": "OK"
   }
   ```  
-  </details>
 
-</details>
 
 
 
@@ -275,8 +272,8 @@ Showing just one instance of a resource often requires an id.  With `$http`, we'
 
 Searching often uses query string parameters, which we can send through `$http` with an option called `params`.
 
-<details>
-  <summary>**Search projects -- with an `$http` request to `GET /api/projects/search?type=quest`.**</summary>
+**Search projects -- with an `$http` request to `GET /api/projects/search?type=quest`. **
+
   ```js
   $http({
     method: 'GET',
@@ -292,7 +289,7 @@ Searching often uses query string parameters, which we can send through `$http` 
   ```
 
   ... and a sample response:
-  <details><summary>click to see full response</summary>
+  
   ```js
   {
     "data": [
@@ -324,9 +321,6 @@ Searching often uses query string parameters, which we can send through `$http` 
     "statusText": "OK"
   }
   ```  
-  </details>
-
-</details>
 
 
 
@@ -335,8 +329,8 @@ Searching often uses query string parameters, which we can send through `$http` 
 
 To create an instance of a resource, we almost always need to send along some data. The data is usually sent in the request body.
 
-<details>
-  <summary>**Create project -- with an example `$http` request to `POST /api/projects`.**</summary>
+**Create project -- with an example `$http` request to `POST /api/projects`.**
+
   ```js
   $http({
     method: 'POST',
@@ -355,7 +349,7 @@ To create an instance of a resource, we almost always need to send along some da
   ```
 
   ... and a sample response:
-  <details><summary>click to see full response</summary>
+
   ```js
   {
     "data": {
@@ -388,9 +382,6 @@ To create an instance of a resource, we almost always need to send along some da
     "statusText": "OK"
   }
   ```  
-  </details>
-
-</details>
 
 
 ### Working with Forms
@@ -414,7 +405,7 @@ Searching isn't as simple as just making an AJAX request, though. We usually let
 
 
 
-<details><summary>Click to see this form setup in sample code.</summary>
+**Sample Code:**
 
 
 ```html
@@ -434,7 +425,7 @@ vm.createProject = function(){
   // make the http request with the data you have from two-way binding
 }
 ```
-</details>
+
 
 ### Closing Thoughts
 
