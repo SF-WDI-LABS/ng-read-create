@@ -95,8 +95,10 @@ function errorCallback(error) {
 1. What similarities do you see between the code blocks above?
 
   <details><summary>click to list a few:</summary>  
+  
     *  method, url  
-    *  callbacks for success and error  
+    *  callbacks for success and error
+    
   </details>
 
   > Why do you think both jQuery and Angular have AJAX methods that share the features you noticed?
@@ -104,7 +106,7 @@ function errorCallback(error) {
 1. What are some major differences?
 
   <details><summary>click to list a few:</summary>  
-    * `.then`    
+    * .then   
     *  parameters of the error callback    
   </details>
 
