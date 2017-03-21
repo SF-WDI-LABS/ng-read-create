@@ -274,7 +274,7 @@ Showing just one instance of a resource often requires an id.  With `$http`, we'
 
 Searching often uses query string parameters, which we can send through `$http` with an option called `params`.
 
-**Search projects -- with an `$http` request to `GET /api/projects/search?type=quest`. **
+**Search projects -- with an `$http` request to `GET /api/projects/search?type=quest`.**
 
   ```js
   $http({
