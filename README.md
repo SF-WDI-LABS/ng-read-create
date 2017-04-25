@@ -392,17 +392,18 @@ To create an instance of a resource, we almost always need to send along some da
 
 Searching isn't as simple as just making an AJAX request, though. We usually let the user enter a search term into a form. The same goes for creating something: we usually let a user enter in information to be POSTed.
 
-1. In Angular, how do we dictate what should happen when a form is submitted?  
-  * How would we do this with jQuery?  
-  * Have you seen any other event listeners in Angular that you could compare to?
+1. In Angular, how do we dictate what should happen when a form is submitted? 
 
-      To enable submit, we'll need a submit button inside the form, an `ng-submit` attribute in the form tag, and a function in the controller to handle the submit event.
+   * How would we do this with jQuery?  
+   * Have you seen any other event listeners in Angular that you could compare to?
+
+    To enable submit, we'll need a submit button inside the form, an `ng-submit` attribute in the form tag, and a function in the controller to handle the submit event.
 
 
 1. In Angular, how can we get the value of a form's input fields?
-  * How can we associate part of the view with a value from the controller?
+   * How can we associate part of the view with a value from the controller?
 
-  This sounds like a job for `ng-model`!  When a form has multiple inputs, it's common to group those into one larger object in the controller.
+   This sounds like a job for `ng-model`!  When a form has multiple inputs, it's common to group those into one larger object in the controller.
 
 
 
