@@ -38,21 +38,21 @@ location: SF
 ## Review
 
 1. What is an API?
-  <details><summary>click to see an excerpt from previous notes</summary>
+   <details><summary>click to see an excerpt from previous notes</summary>
 
-  An Application Program Interface (API) is the way in which you interact with a piece of software. In other words, it is the interface for an application or a program.
+    An Application Program Interface (API) is the way in which you interact with a piece of software. In other words, it is the interface for an application or a program.
 
-    * Many organizations have web APIs allowing people to send them queries and receive data (e.g. [GitHub API](https://developer.github.com/v3) ), but this is just one type of API.
-    * Remember, even an `Array` has an API -- all the methods that can be called on it, such as: `.forEach`, `.pop`, `.length` etc.
-  </details>
+    - Many organizations have web APIs allowing people to send them queries and receive data (e.g. [GitHub API](https://developer.github.com/v3) ), but this is just one type of API.
+    - Remember, even an `Array` has an API -- all the methods that can be called on it, such as: `.forEach`, `.pop`, `.length` etc.
+   </details>
 
 1. What does jQuery's `$.ajax` method do?
 
-  <details><summary>click to see an excerpt from previous notes</summary>
+   <details><summary>click to see an excerpt from previous notes</summary>
 
-  > It makes HTTP calls asynchronously from our browser and allows us to request information over HTTP without interrupting the front-end or causing page reloads.
+    It makes HTTP calls asynchronously from our browser and allows us to request information over HTTP without interrupting the front-end or causing page reloads.
 
-  </details>
+   </details>
 
 
 ### Check for Understanding
@@ -94,21 +94,23 @@ function errorCallback(error) {
 
 1. What similarities do you see between the code blocks above?
 
-  <details><summary>click to list a few:</summary>  
+    <details><summary>click to list a few:</summary>  
   
     *  method, url  
     *  callbacks for success and error
     
-  </details>
+    </details>
 
-  > Why do you think both jQuery and Angular have AJAX methods that share the features you noticed?
+   > Why do you think both jQuery and Angular have AJAX methods that share the features you noticed?
 
 1. What are some major differences?
 
-  <details><summary>click to list a few:</summary>  
-    * .then   
-    *  parameters of the error callback    
-  </details>
+   <details><summary>click to list a few:</summary>
+   
+   *  .then   
+   *  parameters of the error callback 
+   
+   </details>
 
 
 ### Service Setup
